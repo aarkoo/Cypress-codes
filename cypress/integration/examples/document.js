@@ -6,6 +6,7 @@ describe('tc',()=>{
 
     it('document',()=>{
 
+        
         cy.visit('https://www.samplestore.com/account/login');
         cy.title().should('include','Account - Samplestore');
 
