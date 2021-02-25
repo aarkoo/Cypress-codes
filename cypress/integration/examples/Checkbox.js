@@ -22,12 +22,11 @@ describe('TC',()=>{
             cy.get(`[value="${e}"]`).check();  
         })
 
+        var date=new Date();
+        cy.log(date.getDate())
 
-    //  for(let i=0;i<name.length;i++)
-    //  {
-    //     cy.get(`[value="${name[i]}"]`).uncheck();   
-    //  }
 
+   
 
 
     
