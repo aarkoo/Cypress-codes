@@ -6,7 +6,7 @@ describe('tc',()=>{
 
     it('document',()=>{
 
-        
+
         cy.visit('https://www.samplestore.com/account/login');
         cy.title().should('include','Account - Samplestore');
 
@@ -19,7 +19,7 @@ describe('tc',()=>{
         cy.url().then((url)=>{
 
             const pageurl=url;
-            cy.log(pageurl);
+            cy.log( );
         })
 
        // cy.document().should('have.property','charset').and('eq','ISO-8859-1');
